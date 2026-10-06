@@ -26,6 +26,7 @@ noblacklist ${HOME}/.cache/BraveSoftware
 noblacklist ${HOME}/.config/BraveSoftware
 noblacklist ${HOME}/.config/brave
 noblacklist ${HOME}/.config/brave-flags.conf
+noblacklist ${HOME}/.config/brave-origin-flags.conf
 # brave uses gpg for built-in password manager
 noblacklist ${HOME}/.gnupg
 
@@ -36,6 +37,7 @@ whitelist ${HOME}/.cache/BraveSoftware
 whitelist ${HOME}/.config/BraveSoftware
 whitelist ${HOME}/.config/brave
 whitelist ${HOME}/.config/brave-flags.conf
+whitelist ${HOME}/.config/brave-origin-flags.conf
 whitelist ${HOME}/.gnupg
 
 # Brave sandbox needs read access to /proc/config.gz
